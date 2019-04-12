@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "react": "^15.0.0",
-    "react-dom": "^15.0.0",
+    "react-dom": "^16.8.6",
     "async": "^1.4.2"
   }
 }
