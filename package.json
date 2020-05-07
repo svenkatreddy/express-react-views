@@ -9,7 +9,9 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "node test"
+    "test": "node test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Paul O’Shannessy <paul@oshannessy.com>",
   "repository": {
@@ -27,11 +29,13 @@
     "babel-register": "^6.5.1",
     "js-beautify": "^1.5.10",
     "lodash.escaperegexp": "^4.1.1",
-    "object-assign": "^4.0.1"
+    "object-assign": "^4.0.1",
+    "snyk": "^1.319.1"
   },
   "devDependencies": {
     "react": "^15.0.0",
     "react-dom": "^15.0.0",
     "async": "^1.4.2"
-  }
+  },
+  "snyk": true
 }
